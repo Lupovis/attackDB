@@ -12,7 +12,7 @@ usefulLinks:
     - <link2>
 CVEs:
     - <CVE1> - <cve.org link1>
-    - <link1> - <cve.org link1>
+    - <CVE2> - <cve.org link1>
 RegEx:
     - <regEx1>
     - <regEx2>
