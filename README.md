@@ -18,6 +18,6 @@ RegEx:
     - <regEx1>
     - <regEx2>
 ```
-### Improvements
+### Future Improvements
 - [ ] Write script to generate new entry
 - [ ] Consider useful extra fields for entries
