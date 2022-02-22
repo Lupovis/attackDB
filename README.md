@@ -6,16 +6,16 @@ Use TEMPLATE.yaml file to create new entry.\
 If unfamiliar with YAML use this [Validator](http://www.yamllint.com/)\
 ### DB entry structure
 ```yaml
-    description: <Brief description of the attack and its goal>
-    usefulLinks:
-        - <link1>
-        - <link2>
-    CVEs:
-       - <CVE1> - <cve.org link1>
-       - <link1> - <cve.org link1>
-    RegEx:
-       - <regEx1>
-       - <regEx2>
+description: <Brief description of the attack and its goal>
+usefulLinks:
+    - <link1>
+    - <link2>
+CVEs:
+    - <CVE1> - <cve.org link1>
+    - <link1> - <cve.org link1>
+RegEx:
+    - <regEx1>
+    - <regEx2>
 ```
 ### Improvements
 - [ ] Write script to generate new entry
