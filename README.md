@@ -6,6 +6,7 @@ Use TEMPLATE.yaml file to create new entry.\
 If unfamiliar with YAML use this [validator](http://www.yamllint.com/)
 ### DB entry structure
 ```yaml
+name: <Attack Name>
 description: <Brief description of the attack and its goal>
 usefulLinks:
     - <link1>
