@@ -1,0 +1,7 @@
+name: Requst for .env files
+description: Request for .env files are considered malicious due to the sensitive information they usually contain
+usefulLinks:
+  - https://github.com/iLexGit/attackDB.git
+CVEs:
+RegEx:
+  - .*\.env.*

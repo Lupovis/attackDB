@@ -1,0 +1,11 @@
+name: <Attack Name>
+description: <Brief description of the attack and its goal
+usefulLinks:
+  - <link1>
+  - <link2>
+CVEs:
+  - <CVE1> - <cve.org link1>
+  - <link1> - <cve.org link1>
+RegEx:
+  - <regEx1>
+  - <regEx2>
