@@ -1,0 +1,9 @@
+name: Dasan Router Authentication Bypass
+description: An issue was discovered on Dasan GPON home routers. It is possible to bypass authentication simply by appending "?images" to any URL of the device that requires authentication.
+usefulLinks:
+  - https://www.exploit-db.com/exploits/44576
+  - https://www.vpnmentor.com/blog/critical-vulnerability-gpon-router/
+CVEs:
+  - CVE-2018-10561 - https://nvd.nist.gov/vuln/detail/CVE-2018-10561
+RegEx:
+  - /Mozi+/g

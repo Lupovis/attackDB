@@ -1,0 +1,9 @@
+name: Remote Code Execution on ThinkPHP < v3.2.4
+description: The exploitation of a computer bug that is caused by processing invalid data allowing the attacker to inject code that will be later executed by the vulnerable application/system
+usefulLinks:
+  - https://www.exploit-db.com/exploits/46488
+  - https://packetstormsecurity.com/files/157218/ThinkPHP-5.0.23-Remote-Code-Execution.html
+CVEs:
+  - CVE-2019-9082 - https://nvd.nist.gov/vuln/detail/CVE-2019-9082
+RegEx:
+  - /HelloThinkPHP21+/g

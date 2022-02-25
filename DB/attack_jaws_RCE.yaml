@@ -1,0 +1,9 @@
+name: Remote Code Execution on Jaws < v1.8.0
+description: The exploitation of a computer bug that is caused by processing invalid data allowing the attacker to inject code that will be later executed by the vulnerable application/system
+usefulLinks:
+  - https://github.com/jaws-project/jaws
+  - https://github.com/xNoBody12/jaws-rce-via-theme
+CVEs:
+  - CVE-2020-35657 - https://nvd.nist.gov/vuln/detail/CVE-2020-35657
+RegEx:
+  - /Jaws+/g

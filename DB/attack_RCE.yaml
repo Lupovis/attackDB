@@ -1,0 +1,7 @@
+name: Remote Code Execution
+description: The exploitation of a computer bug that is caused by processing invalid data allowing the attacker to inject code that will be later executed by the vulnerable application/system
+usefulLinks:
+  - https://www.acunetix.com/blog/articles/code-injection/
+CVEs:
+RegEx:
+  - (?!\x22)\x[a-fA-F0-9]{2}(?<!\x22)
